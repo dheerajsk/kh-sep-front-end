@@ -10,3 +10,8 @@ How do we send this code to github ?
 
 
 master -> branch.
+
+Open Source Applications ->
+    Where code is publicly available.
+    you can also contribute.
+linux, python, js, java, nodejs, R, express
