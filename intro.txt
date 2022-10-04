@@ -1,0 +1,3 @@
+This is front end module.
+We are going to learn about HTML, CSS, JavaScript.
+
