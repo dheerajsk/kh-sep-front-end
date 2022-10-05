@@ -15,3 +15,21 @@ Open Source Applications ->
     Where code is publicly available.
     you can also contribute.
 linux, python, js, java, nodejs, R, express
+
+
+Front-End Technologies:
+
+HTML
+    
+CSS
+JS
+
+
+
+
+
+
+ReactJS
+
+
+JS -> On browsers, and server (nodejs)

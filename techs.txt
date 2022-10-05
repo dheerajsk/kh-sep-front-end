@@ -1,0 +1,26 @@
+
+HTML.
+    - To create controls
+
+
+CSS.
+    - To design controls
+
+
+JavaScript.
+    - to handle events on controls.
+
+
+
+1. Create a text box or any control (textbox, button, dropdown).
+    - HTML.
+
+2. Apply designs - color, background, border.
+    - CSS
+
+3. Event Handling
+    => to respond to user's actions.
+    - JavaScript. - to handle events form html controls.
+
+
+React=> (HTML+CSS+JS) => Browser.

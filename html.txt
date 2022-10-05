@@ -1,0 +1,37 @@
+
+HTML.
+=> For the browser, create controls.
+=> HyperText markup Language.
+
+=> HTML is a language ? For browser.
+=> Not a programming language.
+=> Just a markup langauge.
+    => because of the grammar and syntax. 
+    => <HTML>other contnet.</HTML>
+=> HyperText.
+
+
+SignUp Form.
+    1. name. (textbox) - done.
+    2. email. - done.
+    3. password. - done.
+    4. phone. - done.
+    5. dob.
+    6. gender.
+    7. username.
+    8. address.
+    9. country.
+
+Tags.
+
+HTML -> A site.
+Head -> header info
+Body -> container of controls
+h1, h2, h3, h4, h5, h6 -> to create headers
+form. -> create forms
+input -> allows user to give inputs. (a self closing tag)
+        => text.
+br => break line.
+textarea
+select
+option
