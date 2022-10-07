@@ -1,0 +1,29 @@
+
+Agenda for 7th October
+
+1. Table.
+2. header
+3. footer.
+4. section.
+5. nav
+6. SEO.
+7. Title
+
+
+SEO => Search Engine Optimiztion.
+
+
+Encoding
+=> Formats of data computers use.
+
+
+travelcompany.com
+travelxyz.com
+
+
+DNS Server
+    => google.com (Domain Name).
+    => yourowncompany.com 
+
+thefacebook.com
+facebook.com
