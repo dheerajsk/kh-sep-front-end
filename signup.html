@@ -15,45 +15,75 @@
     <h4>Please Sign Up</h4>
     <h5>Please Sign Up</h5>
     <h6>Please Sign Up</h6> -->
-    <form>
-        <label>Enter Your Name</label>
-        <input type="text" />
-        <br />
-        <label>Enter Your Email</label>
-        <input type="email" />
-        <br />
-        <label>Enter Your Password</label>
-        <input type="password" />
-        <br />
-        <label>Enter Your Phone</label>
-        <input type="tel" />
-        <br />
-        <label>Enter your Date of Birth</label>
-        <input type="date">
-        <br />
-        <label>Please select your gender</label>
-        <input type="radio" name="gender"> <label>Male</label>
-        <input type="radio" name="gender"> <label>Female</label>
-        <br />
-        <label>Enter your username</label>
-        <input type="text" />
-        <br />
-        <label>Enter your Address</label>
-        <!-- Textarea is for multi line text box -->
-        <textarea cols="30" rows="3"></textarea>
-        <br />
-        <label>Select your Country</label>
-        <!-- Select is to create a dropdown with multiple options -->
-        <select name="country" id="country">
-            <option value="0">USA</option>
-            <option value="1">UK</option>
-            <option value="2">China</option>
-            <option value="3">India</option>
-            <option value="4">S Korea</option>
-        </select>
+
+    <!-- Div is parent form. -->
+    <div>
+        <!-- Form is parent of input elements. -->
+        <form>
+            <label>Enter Your Name</label>
+            <input type="text" name="name" />
+            <br />
+            <label>Enter Your Email</label>
+            <input type="email" />
+            <br />
+            <label>Enter Your Password</label>
+            <input type="password" />
+            <br />
+            <label>Enter Your Phone</label>
+            <input type="tel" />
+            <br />
+            <label>Enter your Date of Birth</label>
+            <input type="date">
+            <br />
+            <label>Please select your gender</label>
+            <input type="radio" name="gender"> <label>Male</label>
+            <input type="radio" name="gender"> <label>Female</label>
+            <br />
+            <label>Enter your username</label>
+            <input type="text" />
+            <br />
+            <label>Enter your Address</label>
+            <!-- Textarea is for multi line text box -->
+            <textarea cols="30" rows="3"></textarea>
+            <br />
+            <label>Select your Country</label>
+            <!-- Select is to create a dropdown with multiple options -->
+            <select name="country" id="country">
+                <option value="0">USA</option>
+                <option value="1">UK</option>
+                <option value="2">China</option>
+                <option value="3">India</option>
+                <option value="4">S Korea</option>
+
+            </select>
+            <br />
+            <!-- Submit tries reading data from controls and submit to server. -->
+            <!-- <input type="submit" value="Save" /> -->
+            <!-- <input type="button" value="Save"> -->
+            <button type="reset">Clear</button>
+
+        </form>
+    </div>
+
+    <div>
+        Something Else.
+    </div>
+
+    <span>
+        This is Span 1
+    </span>
+    <span>
+        This is Span 2
+    </span>
+    <span>
+        This is Span 3
+    </span>
+    <div>
+        Another div
+    </div>
 
 
-    </form>
+
 
     <h3>End of Form</h3>
 
