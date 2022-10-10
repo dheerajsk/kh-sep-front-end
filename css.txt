@@ -1,0 +1,8 @@
+
+
+
+HTML => To create raw controls.
+
+CSS => To design the controls/ apply styles to controls.
+    => To make it look better.
+JS => To allow event handling.

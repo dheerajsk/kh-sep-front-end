@@ -1,0 +1,30 @@
+
+Types of CSS:
+[Where do we write our CSS.]
+
+
+1. Inline.
+    => It is written along with html codes, as html attribute.
+    => not a good practice.
+    => do not need selector.
+2. Internal.
+    => Part of html file.
+    => not a good practice.
+3. External.
+    => Separate css file.
+
+
+CSS Selectors:
+    => Help you select element/elements where styles need to be applied.
+
+    ID => Apply unique styles. can be applied to just one control.
+    
+    TagName => Applies style to all the matching tags.
+
+    Class => A custom cssc onfiguration to apply on different elements.
+    
+    * => It applies to all elements in page.
+
+
+
+Background-color.
