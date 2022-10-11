@@ -1,0 +1,17 @@
+
+1. Singup Header.
+    Color.
+    Increase font size.
+    Change font.
+
+2. Container
+    Some padding.
+    Some margin.
+    Light border.
+
+3. COntrols.
+    Display as block-level.
+    Width, height.
+    font size, font family
+    border-radius.
+    spacing around control [container]
