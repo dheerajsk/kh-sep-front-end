@@ -1,0 +1,104 @@
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    /* background-color: darkslategray;
+    padding: 3px; */
+   
+}
+
+.search{
+    height: 30px;
+    width: 260px;
+    border: 1px solid lightblue;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+a{
+    text-decoration: none;
+    color: darkslateblue;
+    font-size: large;
+}
+
+nav{
+    background-color: darkorange;
+    padding: 6px;
+}
+
+.container{
+    display: flex;
+}
+
+
+.left-container{
+    width: 50%;
+}
+
+
+#formContainer{
+    width: 50%;
+    /* Box Model. */
+    border-left: 1px groove lightgray;
+    /* space between element and border */
+    /* padding: top right bottom left */
+    padding: 12px 12px 12px 12px ;
+    /* padding-top: 0; */
+    margin: 18px;
+}
+
+
+#signUpHeader{
+    color: #2f4f4f;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.form-control{
+    /* It will display control like a block element */
+    display: block;
+    /* 100% of what ? => 100% of Parent. */
+    width: 100%;
+    height: 36px;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    font-size: large;
+    margin-top: 6px;
+    padding: 6px;
+}
+
+.form-radio{
+    /* It will display control like a block element */
+    display: block;
+    /* 100% of what ? => 100% of Parent. */
+    margin-top: 4px;
+    padding: 4px;
+}
+
+.form-label{
+}
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form-group{
+    margin: 12px;
+}
+
+.btn-signup{
+    float: right;
+    height: 36px;
+    width: 120px;
+    margin: 12px;
+    font-size: large;
+    background-color: greenyellow;
+    border: 1px solid greenyellow;
+    cursor:pointer;
+}

@@ -1,0 +1,111 @@
+<!-- Ctrl+K+C is used to comment -->
+<!-- Everything in html file should be inside 
+    opening and closing html tags -->
+<html>
+<!-- Head includes header information about the page. -->
+
+<head>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<!-- Body contains all the controls for UI. -->
+
+<body>
+    <!-- Div is parent form. -->
+    <!-- Div is used as container and apply css to the container. -->
+    <!-- style=> applies inline css -->
+
+    <!-- css syntax => cssProperty:value -->
+
+    <!-- <div style="background-color: red;"> -->
+
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Sign Up</a></li>
+            <li><a href="">Sign In</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><input placeholder="Search..." class="search" type="search"></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="left-container">
+
+        </div>
+        <div id="formContainer">
+
+            <h3 id="signUpHeader">Please Sign Up</h3>
+            <hr>
+            <!-- Form is parent of input elements. -->
+            <!-- Form is used for submit event, calls to server, reading values -->
+            <form>
+                <div class="form-group">
+                    <label class="form-label">Enter Your Name</label>
+                    <input class="form-control" type="text" name="name" />
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Enter Your Email</label>
+                    <input class="form-control" type="email" />
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Enter Your Password</label>
+                    <input class="form-control" type="password" />
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Enter Your Phone</label>
+                    <input class="form-control" type="tel" />
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Enter your Date of Birth</label>
+                    <input class="form-control" type="date">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Please select your gender</label>
+                    <div class="form-radio">
+                        <input type="radio" name="gender"> <label>Male</label>
+                    </div>
+                    <div class="form-radio">
+                        <input type="radio" name="gender"> <label>FeMale</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Enter your username</label>
+                    <input class="form-control" type="text" />
+                </div>
+                <div class="form-group">
+
+                    <label class="form-label">Enter your Address</label>
+                    <!-- Textarea is for multi line text box -->
+                    <textarea class="form-control" cols="30" rows="3"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Select your Country</label>
+                    <!-- Select is to create a dropdown with multiple options -->
+                    <select class="form-control" name="country" id="country">
+                        <option value="0">USA</option>
+                        <option value="1">UK</option>
+                        <option value="2">China</option>
+                        <option value="3">India</option>
+                        <option value="4">S Korea</option>
+
+                    </select>
+                </div>
+
+                <button class="btn-signup" type="button">Sign Up</button>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <!-- <button class="btn-clear" type="reset">Clear</button> -->
+
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>
