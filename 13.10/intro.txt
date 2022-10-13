@@ -1,0 +1,14 @@
+
+Responsive Design.
+    => Making webapps usable on different screens.
+
+1. BreakPoints.
+2. Media Query.
+3. Mobile-First and Desktop-First design.
+
+
+We need 2 diff css configuration.
+1. for desktop. - Done. (Default)
+2. for mobile.
+    2.1 To identify when we are on mobile view.
+    2.2 apply mobile css.

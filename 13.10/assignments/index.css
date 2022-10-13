@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+
+.left{
+    border: 1px solid royalblue;
+    width: 60%;
+}
+
+.right{
+    width: 40%;
+    border: 1px solid royalblue;
+
+}
+
+
+
+
+
+
+body {
+    background-color: #F0F2F5;
+    position: relative;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+#container {
+    display: flex;
+    height: 100%;
+}
+
+#text {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    position: relative;
+    left: 20vw;
+    top: 20vh;
+    /* margin-right: 30vw; */
+    font-size: 20px;
+    font-weight: light;
+}
+
+
+#fb {
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 140px;
+    width: 19vw;
+}
+
+.logo {
+    height: 250px;
+    width: 400px;
+    margin: -42px
+}
+
+#login {
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 32px;
+    padding-right: 20px;
+    margin: 20px 0 5px 0;
+    box-shadow: 6px 6px 5px lightgray;
+    position: relative;
+    left: 10vw;
+    background-color: #FFFFFF;
+    height: 350px;
+    width: 30%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    top: 18vh;
+    justify-content: flex-start;
+    padding: 10 10 20 10;
+    align-items: center;
+    /* box-shadow: 0 5 5 3 gainsboro; */
+}
+
+
+#login > a {
+    margin: 18 0;
+    text-decoration: none;
+    font-size:15px;
+    color: #1877F2;
+}
+
+#login > a:hover {
+    text-decoration: underline;
+    cursor: pointer;   
+}
+
+hr {
+    width: 95%;
+    height: 0.1%;
+    background-color: rgb(194, 193, 193);
+    border: none;
+}
+
+#login > input[type=text], input[type=password] {
+    height: 35%;
+    margin: 8px 0;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+    width: 95%;
+    border: 1.5PX SOLID #EEEff0; 
+}
+
+#login > input[type=password] {
+    margin-bottom: 12px;
+}
+
+#login > input[type=text]:focus, input[type=password]:focus {
+    outline: none;
+    border: 1.5px solid blue;
+    box-shadow: 0 0 5px #719ECE;
+    caret-color: blue;
+}
+
+#login-button {
+    background-color: #1877F2;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    height: 120px;
+    width: 95%;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#login-button:hover {
+    background-color: #166FE5;
+    cursor: pointer;
+}
+
+#create-button {
+    background-color: #42b72a;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    height: 100px;
+    width: 60%;
+    margin-top: 20px;
+}
+
+#create-button:hover {
+    background-color: #36a420;
+    cursor: pointer;
+}
+
+p {
+    font-size: 15px;
+    position: absolute;
+    bottom: -55px;
+}
+
+footer {
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    width: 98vw;
+    padding: 20px;
+    color: #a6a8aa;
+    font-size: 12px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    word-spacing: 12px;
+    line-height: 20px;
+}
+
+footer > a {
+    text-decoration: none;
+    color: #a6a8aa;
+}
+
+/* mixins */
+
+@media screen and (max-width: 470px) {
+    #fb{
+        width: 100%;
+        font-size: 18px;
+    }
+    footer{
+        position: relative;
+    }
+    #container {
+        display: block;
+        padding: 40px;
+    }
+    #login{
+        width: 100%;
+        top:0;
+        left:0;
+    }
+    #text{
+        width: 100%;
+        top:0;
+        left: 0;
+        padding: 12px;
+        font-size: 16px;
+        height: 200px;
+    }
+}
+
+
+@media screen and (min-width: 471px) and (max-width: 1000px) {
+   
+    #container {
+       background-color: lightgreen;
+    }
+    
+}
