@@ -1,0 +1,97 @@
+<html>
+
+<head>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Sign Up</a></li>
+                <li><a href="">Sign In</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><input placeholder="Search..." type="search"></li>
+            </ul>
+        </nav>
+
+        <div>
+            <div>
+
+            </div>
+            <div>
+
+                <h3 id="signUpHeader">Please Sign Up</h3>
+                <hr>
+                <!-- Form is parent of input elements. -->
+                <!-- Form is used for submit event, calls to server, reading values -->
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label">Enter Your Name</label>
+                        <input class="form-control" type="text" name="name" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Enter Your Email</label>
+                        <input class="form-control" type="email" />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Enter Your Password</label>
+                        <input class="form-control" type="password" />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Enter Your Phone</label>
+                        <input class="form-control" type="tel" />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Enter your Date of Birth</label>
+                        <input class="form-control" type="date">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Please select your gender</label>
+                        <div>
+                            <input type="radio" name="gender"> <label>Male</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="gender"> <label>FeMale</label>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Enter your username</label>
+                        <input class="form-control" type="text" />
+                    </div>
+                    <div class="mb-3">
+
+                        <label class="form-label">Enter your Address</label>
+                        <!-- Textarea is for multi line text box -->
+                        <textarea class="form-control" cols="30" rows="3"></textarea>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Select your Country</label>
+                        <!-- Select is to create a dropdown with multiple options -->
+                        <select class="form-select" name="country" id="country">
+                            <option value="0">USA</option>
+                            <option value="1">UK</option>
+                            <option value="2">China</option>
+                            <option value="3">India</option>
+                            <option value="4">S Korea</option>
+
+                        </select>
+                    </div>
+
+                    <button class="btn btn-success float-end" type="button">Sign Up</button>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
