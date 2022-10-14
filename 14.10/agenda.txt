@@ -1,0 +1,24 @@
+
+HTML->CSS
+Bootstrap.
+->JS->React->NodeJS->Express->MongoDB.
+
+
+
+Bootstrap.
+=> What is it ?
+    => Library for CSS.
+    => provides css classes.
+=> Why ?
+
+
+1. Integrate bootstrap. - Done.
+2. Start using form classes. - Done.
+3. few more controls. - Progresss.
+4. Grid system. to create responsive design.
+
+
+
+Library
+=> some inbuilt features.
+, Framework. => Library+structure+workspace+patterns.
