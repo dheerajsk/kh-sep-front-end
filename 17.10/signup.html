@@ -1,0 +1,160 @@
+<html>
+
+<head>
+
+
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="signup.css">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <!-- Anchor tag -->
+            <!-- InnerText is text between opening and closing tage -->
+            <!-- InnerHTML is html content between opening and closing tah -->
+            <a class="navbar-brand" href="#">Menu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-4">
+                <img src="https://cdn4.iconfinder.com/data/icons/social-icon-4/842/facebook-512.png" alt="">
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <h3 id="signUpHeader">Please Sign In</h3>
+                <hr>
+                <form action="">
+                    <div class="mb-3">
+                        <label class="form-label">Enter Your Email</label>
+                        <input class="form-control" type="email" />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Enter Your Password</label>
+                        <input class="form-control" type="password" />
+                    </div>
+                    <button class="btn btn-success float-end" type="button">Sign In</button>
+
+                </form>
+            </div>
+            <div class="col-md-12 col-lg-4">
+
+                <h3 id="signUpHeader">Please Sign Up</h3>
+                <hr>
+                <!-- Form is parent of input elements. -->
+                <!-- Form is used for submit event, calls to server, reading values -->
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label">Enter Your Name</label>
+                        <input class="form-control" type="text" name="name" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Enter Your Email</label>
+                        <input class="form-control" type="email" />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Enter Your Password</label>
+                        <input class="form-control" type="password" />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Enter Your Phone</label>
+                        <input class="form-control" type="tel" />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Enter your Date of Birth</label>
+                        <input class="form-control" type="date">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Please select your gender</label>
+                        <div class="form-check">
+                            <label class="form-check-label">Male</label>
+                            <input class="form-check-input" type="radio" name="gender">
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">FeMale</label>
+                            <input class="form-check-input" type="radio" name="gender">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Enter your username</label>
+                        <input class="form-control" type="text" />
+                    </div>
+                    <div class="mb-3">
+
+                        <label class="form-label">Enter your Address</label>
+                        <!-- Textarea is for multi line text box -->
+                        <textarea class="form-control" cols="30" rows="3"></textarea>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Select your Country</label>
+                        <!-- Select is to create a dropdown with multiple options -->
+                        <select class="form-select" name="country" id="country">
+                            <option value="0">USA</option>
+                            <option value="1">UK</option>
+                            <option value="2">China</option>
+                            <option value="3">India</option>
+                            <option value="4">S Korea</option>
+
+                        </select>
+                    </div>
+
+                    <button class="btn btn-success float-end" type="button">Sign Up</button>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
