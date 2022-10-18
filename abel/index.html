@@ -1,0 +1,125 @@
+<DOCTYPE html>
+
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+            crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="modalfile.html">
+        <title>Facebook logg deg inn</title>
+
+        <!-- <link rel="icon" href="Facebook_f_logo_(2019).svg.pn"> -->
+    </head>
+
+    <body>
+
+        <form>
+            <div id="WholeContainer">
+                <div id="LeftContainer">
+                    <p id="p">Facebook</p>
+                    <h2 id="header2">Facebook hjelper deg med å holde kontakten og
+                        dele opplevelser med menneskene i livet ditt.
+                    </h2>
+                </div>
+                <div id="RightContainer">
+                    <div>
+                        <input id="formUsername" type="text" placeholder="E-postadresse eller Telephone">
+
+
+                    </div>
+                    <input id="formPassword" type="password" placeholder="Password">
+                    <div>
+                        <label>Remember Me</label>
+                        <input type="checkbox" name="Remember Me" id="RememberMe">
+                        <div>
+                            <input type="submit" value="Logg inn" id="LoggInn">
+                        </div>
+                        <button id="GlemtKontoen" type="button"> <a href="">Forgot Passoword?</a> </button>
+                        <hr>
+                        <button id="Register" data-bs-target="#exampleModal" type="button" data-bs-toggle="modal">
+                            Registrer deg på Facebook </button>
+
+                        <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal">
+                            Launch demo modal
+                        </button> -->
+
+                        <!-- Modal -->
+
+
+
+
+                    </div>
+                </div>
+        </form>
+        <div>
+            <footer>
+                <ul>
+                    <li><a href="">English</a></li>
+                    <li><a href="https://pl-pl.facebook.com/">Brazil</a></li>
+                    <li><a href="">Arabisk</a></li>
+                    <li><a href="https://pl-pl.facebook.com/">Norsk</a></li>
+                    <li><a href="https://www.facebook.com/#">Amharisk</a></li>
+                    <li><a href="https://pt-br.facebook.com/">Polisk</a></li>
+                </ul>
+            </footer>
+        </div>
+        <div>
+            <!-- <script type="text/javascript">
+                    // Get the modal
+                    var modal = document.getElementById('id01');
+                    
+                    // When the user clicks anywhere outside of the modal, close it
+                    window.onclick = function(event) {
+                      if (event.target == modal) {
+                        modal.style.display = "none";
+                      }
+                    }
+                    </script>  -->
+
+        </div>
+
+        <!-- <section>
+                <ul>
+                    <li><a href="">English</a></li>
+                    <li><a href="https://pl-pl.facebook.com/">Brazil</a></li>
+                    <li><a href="">Arabisk</a></li>
+                    <li><a href="https://pl-pl.facebook.com/">Norsk</a></li>
+                    <li><a href="https://www.facebook.com/#">Amharisk</a></li>
+                    <li><a href="https://pt-br.facebook.com/">Polisk</a></li>
+                </ul>
+            </section>-->
+
+        <!-- Button trigger modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">
+                            <h2>Please Sign Up</h2>
+                        </h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Hello World</p>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    </html>

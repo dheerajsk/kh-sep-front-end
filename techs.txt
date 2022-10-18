@@ -24,3 +24,8 @@ JavaScript.
 
 
 React=> (HTML+CSS+JS) => Browser.
+
+
+
+
+Fundamentals => HTML => CSS => Bootstrap => JS => React => Node/Express => MongoDB

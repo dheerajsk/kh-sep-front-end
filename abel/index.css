@@ -1,0 +1,124 @@
+
+#fa{
+    padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+#WholeContainer{
+    display: flex;
+    background-color: aliceblue;
+}
+#LeftContainer{
+    width: 50%;
+    margin: 100px;   
+}
+#p{
+    font-size: 100px;
+    color: cornflowerblue;
+    font-weight: bolder;
+    margin-bottom: 0;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+
+}
+#RightContainer{
+    width: 50%;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    margin-right: 250px;
+    padding: 40px;
+    margin-left: 100px;
+    background-color: white;
+    border-radius: 10px;
+}
+#header2{
+    /* margin: 20px 20px 30px 20px; */
+    color: black;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 400px;
+}
+/* Set a style for Both input*/
+input[type=text], input[type=password]{
+    height: 50;
+    font-weight: 100;
+    width: 255;
+    border: 2px solid grey;
+    /* box-sizing: border-box; */
+    border-radius: 10px; 
+    padding-left: 10px;    
+    margin-top: 15px;
+}
+/* style button to logginn */
+#LoggInn{
+    height: 50px;
+    width: 255px;
+    border-radius: 10px;
+    margin-top: 15px;
+    background-color: cornflowerblue;
+}
+/* style button to forgot password */
+#GlemtKontoen{
+    height: 25px;
+    width: 150px;
+    margin-top: 15px;
+    border-radius: 5px; 
+    margin-left: 60px;
+    opacity: 0.8;
+}
+#RememberMe{
+    text-decoration: none;
+    margin-top: 10;
+    margin-bottom: 0;
+}
+#Register{
+    margin: 20px 5px 10px 30px;
+    border-radius: 5px;
+    width: 200;
+    background-color: lightgreen;
+}
+/* this is line(li) layout to Html footer layout */
+li{
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+    /* justify-content: space-around; */
+    padding: 2px;
+}
+hr{
+margin-top: 30px;}
+footer{
+    background-color: white;
+}
+
+/* apply this to scress sixe greater than < 471px */
+  @media screen and (max-width: 470px) {
+    
+    #wholeCOntainer{
+        display: block;
+    }
+
+    #RightContainer{
+        width: 94%;
+        padding: 6px;
+        margin-top: 6px;
+        margin-bottom: 6px;
+        margin-left: 6px;
+        margin-right: 6px;
+        
+    }
+    #LeftContainer{
+        width: 100%;
+        left: 0px;
+        font-size: medium;
+        margin: 4px;
+    }
+
+    #p{
+        font-size:60px;
+    }
+  }

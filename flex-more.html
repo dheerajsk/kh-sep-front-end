@@ -1,0 +1,48 @@
+<html>
+
+
+<head>
+
+    <style>
+        .parent {
+            display: flex;
+            border: 1px solid red;
+            height: 200px;
+            margin: 5px;
+            padding: 5px;
+            /* width: 300px */
+            /* box-sizing: border-box; */
+        }
+
+        .child {
+            background-color: lightblue;
+            border: 1px solid black;
+            flex-basis: 100px;
+        }
+
+        .shrink {
+            flex-shrink: 2;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="parent">
+        <div class="child">
+            Content 1
+        </div>
+        <div class="child shrink">
+
+        </div>
+        <div class="child">
+
+        </div>
+        <div class="child">
+
+        </div>
+    </div>
+</body>
+
+</html>

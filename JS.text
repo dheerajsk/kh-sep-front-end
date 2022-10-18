@@ -1,0 +1,27 @@
+
+1. Introduction.
+2. Variables.
+3. DataTypes.
+4. Operators.
+5. Conditionals and Loops.
+6. Functions.
+7. String methods
+8. Array methods.
+9. Closure.
+10. OOPS 
+    10.1 Classes.
+    10.2 Objects.
+    10.3 Polymorphism
+    10.4 Instance methods.
+    10.5 this keyword.
+11. Asynchronous Programming.
+    11.1 How JS works ?
+    11.2 EventLoop.
+    11.3 Callbacks.
+    11.4 Promises.
+    11.5 Async/await.
+    11.6 Performance.
+12. DOM Manipluation.
+    12.1 Event Handling.
+    12.2 Submitting Forms.
+    
