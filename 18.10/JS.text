@@ -1,17 +1,19 @@
 
 1. Introduction. - Done.
     What and Why ?
-
     A programming language.
-
 
 2. Variables. - Done.
     const, var, let
+3. DataTypes. - Done.
 
-3. DataTypes.
+
 4. Operators.
+    =, +, *, /, %
+
 5. Conditionals and Loops.
 6. Functions.
+    Types of functions => ,Arrow, Function Expression.
     Scopes, diff bwteeen var and let.
 7. String methods
 8. Array methods.
