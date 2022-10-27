@@ -9,8 +9,15 @@
 
 4. Operators.
     =, +, *, /, %
+    Arithmetic, 
+    Assignment Operators, 
+    Comparision Operators,
+    Logical Operators (&&, ||)
+    Inc, Dec operators.
 
 5. Conditionals and Loops.
+    if, loop.
+
 6. Functions.
     Types of functions => ,Arrow, Function Expression.
     Scopes, diff bwteeen var and let.
