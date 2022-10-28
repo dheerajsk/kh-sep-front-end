@@ -15,12 +15,16 @@
     Logical Operators (&&, ||)
     Inc, Dec operators.
 
-5. Conditionals and Loops.
+5. Conditionals and Loops. - Done.
     if, loop.
 
 6. Functions.
-    Types of functions => ,Arrow, Function Expression.
+    Types of functions => Done.
+        General => Done.
+        Arrow => 
+        Function Expression.
     Scopes, diff bwteeen var and let.
+
 7. String methods
 8. Array methods.
 9. Object methods.

@@ -44,3 +44,5 @@ while(i<=10){
     console.log(i*n);
     i++;
 }
+
+// write a program using loops to print primt no from 1 to 100.
