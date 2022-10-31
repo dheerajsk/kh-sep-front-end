@@ -11,7 +11,7 @@ const printStars = n =>{
         let stars="";
         // Inner loop.
         // *****
-        // Creating stars on each line.
+        // Creating stars on each line.=> ***
         for(let j=1; j<=i; j++){
         //  stars=stars+"*";
             stars+="*";
