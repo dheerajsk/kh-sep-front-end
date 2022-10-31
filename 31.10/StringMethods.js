@@ -1,7 +1,7 @@
 
 // string. => abc+1234+*&^%
 
-var address="Street24, NYC";
+var address="Street24, NYC, USA, 456789RT";
 
 // string is a set of characters/ collection of characters.
 // traverse string based on index positions.
@@ -22,7 +22,7 @@ console.log(address.length); // 13
 console.log(address.length-1); // 12
 
 // 3. Find index of any character in string.
-console.log(address.indexOf("2")); // 6
+console.log(address.indexOf("Z")); // 6
 
 // 4. Get Part of a string. Get NYC part of string.
 console.log(address.slice(10, 13));
