@@ -44,3 +44,12 @@ console.log(username.trim());
 // 8. Concat.
 const result = username.concat(address);
 console.log(result);
+
+// 9. How to Split a string.
+var str = "Hello, I am learning JavaScript now, and then will start with react";
+const results = str.split(" ");
+console.log(results);
+
+// 10. How to join separate strings into one.
+const joinedResult = results.join("|");
+console.log(joinedResult);
