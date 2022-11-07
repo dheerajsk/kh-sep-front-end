@@ -38,6 +38,10 @@ class Customer{
     }
 
     payForOrder(){
+        // accepting debit/credit cards.
+        // verifying card.
+        // connecting to bank
+        // deducting payments.
         console.log("Payment done");
     }
 
@@ -87,14 +91,33 @@ class GoldCustomer extends Customer{
         super(_name, _id, _address, _phone, _email);
         this.goldService=_goldService;
     }
+
+    //Overriding method.
+    payForOrder(){
+        console.log("Paying 20% less on total value.");
+        super.payForOrder();
+    }
 }
 
 class PlatinumCustomer extends Customer{
 
     platniumService;
+    constructor(_pService, _name, _id, _address, _phone, _email)
+    {
+        // super keyword calls parent class constructor
+        super(_name, _id, _address, _phone, _email);
+        this.platniumService=_pService;
+    }
 }
 
 var goldCustomer1 = new GoldCustomer("20% Discount","Gold Customer", 3, "Mumbai", 8877665544, "customer.gold@gmail.com");
-console.log(goldCustomer1.name);
-console.log(goldCustomer1.goldService);
+console.log(goldCustomer1.name); // is from parent.
+console.log(goldCustomer1.goldService); // is its own property.
+goldCustomer1.payForOrder();
+
+
 console.log(customer1.goldService); // undefined.
+
+var pCustomer = new PlatinumCustomer("30% Discount","Gold Customer", 3, "Mumbai", 8877665544, "customer.gold@gmail.com");
+
+pCustomer.payForOrder();
