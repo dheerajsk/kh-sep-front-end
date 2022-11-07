@@ -1,0 +1,46 @@
+
+React.
+    => What is React ?
+        JS Library for front-end development.
+    => Why do we need it ?
+        WHy do we need libraries ?
+            => inbuilt functions/features.
+            => reduce time and effort to develop apps.
+    => How does it work ?
+         1. Component-based architecture.
+            What is a component.
+                => Part of UI, or Whole page.
+                => reusability of code.
+                => easy to maintain/make changes/test.
+         2. Virtual-DOM.
+            What is DOM
+                => Document Object Model. => JS.
+                => Tree representation of UI.[HTML Page.]
+         3. JSX. 
+                => JavaScript Extension.
+                => Ability to use JS and HTML together.
+
+    => How to use it ?
+
+
+                        HTML.
+            HEAD                            BODY
+LINK {rel:"stylesheet", href:"d"}     TITLE      SCRIPT           HEADER          FORM         FOOTER.
+                                 SEARCH{color, backgr, font-size.}    LOGO   INPUT. BUTTONs.  CText. LInks.
+
+
+["HTML", "HEAD", "BODY", "LINK"]
+
+Tree Traversal. => 
+BFS [Breadth First Search]. 
+    HTML-HEAD-BODY-LINK-TITLE-SCRIPT-HEADer- FORM FOOTER.EARCH LOGO   INPUT. BUTTONs.CText. LInks.
+
+DFS [Depth First Search Algorithm].
+    HTML-HEAD-LINK-TITLE-SCRIPT-BODY-HEADER-SEARCH-LOGO-FORM-INPUT-BUTTOns.
+
+
+1. Observing mouse movements.
+2. As soon as mouse stops, find the elment.
+3. Trverse the tree. to find the element.
+4. Update that element and its properties.
+5. Update the tree. 

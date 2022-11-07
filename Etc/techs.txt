@@ -28,4 +28,27 @@ React=> (HTML+CSS+JS) => Browser.
 
 
 
-Fundamentals => HTML => CSS => Bootstrap => JS => React => Node/Express => MongoDB
+Fundamentals - Done.
+ => HTML - Done.
+  => CSS - Done.
+   => Bootstrap - Done.
+    => JS - Done.
+    
+    MERN. [Full Stack Development Tool]
+
+        => React
+         => Node/Express
+          => MongoDB
+
+
+Client
+    => To show UI to user. - Done.
+    => Style UI. - Done.
+    => To handle events from user. - React.
+    => To send requests to Server. - React.
+
+
+Server.
+    => Accepts request from User.
+    => Manages user's data in databases.
+    => Send responses to client.
