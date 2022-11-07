@@ -1,0 +1,59 @@
+
+What is an object.
+
+Array.
+[1, 2, 3, 4]
+
+Complex data.
+
+Student => id: 1, name: John Doe, subjects: [computer science, human psychology].
+
+Aray = [98, "John Doe", "CS", "HP"]
+
+Objects.
+Store data in key value format.
+
+var student = {
+    id:1,
+    name:"John Doe",
+    subjects:["CS", "Maths", "psychology"]
+    address:{
+        buildingNo: 5,
+        streetNo: 25,
+        City: "NYC",
+        Country: "USA"
+    }
+}
+
+tweet  ={
+    id: 1,
+    content :"Hello people",
+    author: "Elon Musk",
+    timeoftweet: "2 Nov, 2022"
+    likes: 20000,
+    comments:[
+        {
+            id: 2,
+            author: "Bill Gates",
+            content:"Hello to you too",
+            timestamp:  "2 Nov, 2022"
+        },
+        {
+            id: 2,
+            author: "Bill Gates",
+            content:"Hello to you too",
+            timestamp:  "2 Nov, 2022"
+        },
+        {
+            id: 2,
+            author: "Bill Gates",
+            content:"Hello to you too",
+            timestamp:  "2 Nov, 2022"
+        },{
+            id: 2,
+            author: "Bill Gates",
+            content:"Hello to you too",
+            timestamp:  "2 Nov, 2022"
+        }
+    ]
+}
